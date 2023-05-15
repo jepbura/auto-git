@@ -1,0 +1,1 @@
+Today's date in Jalali calendar: 1402/02/25 Today's date in Gregorian calendar: 2023-05-15
