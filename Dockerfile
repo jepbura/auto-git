@@ -7,9 +7,9 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY app.py ./
 
-ENV ACCESS_TOKEN=<access_token_value>
-ENV REPO_NAME=<repo_name_value>
-ENV README_FILE_NAME=<readme_file_name_value>
+ENV ACCESS_TOKEN=$ACCESS_TOKEN
+ENV REPO_NAME=$REPO_NAME
+ENV README_FILE_NAME=$README_FILE_NAME
 
 RUN apt-get update && apt-get -y install cron
 
