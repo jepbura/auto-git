@@ -14,7 +14,7 @@ def commit_to_github():
     jstr_today = jtoday.strftime('%Y/%m/%d')
 
     today = jtoday.togregorian().strftime('%Y-%m-%d')
-    file_content = f"Today's date in Jalali calendar: {jstr_today} Today's date in Gregorian calendar: {today}"
+    file_content = f"Today's date in Jalali calendar: {jstr_today} Today's date in Gregorian calendar: {today}\n # Auto commit\nThis project updates its GitHub repository README.md on a daily basis using Docker and Python.\n\n## Usage\n\nDefine the following environment variable to configure Gaga Node.\n\nVariable | Description | Optional\n-------- | ----------- | --------\nREADME_FILE_NAME | The file you want to edit  | no\nACCESS_TOKEN | your github access token | no\nREPO_NAME | Repository name | no\n\n## Docker hub\n\nMy Docker at Docker Hub: [jepbura/auto-commit](https://hub.docker.com/r/jepbura/auto-commit/)\n"
 
     try:
         contents = repo.get_contents(README_FILE_NAME)
