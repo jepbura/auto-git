@@ -1,4 +1,4 @@
-Today's date in Jalali calendar: 1402/02/27 Today's date in Gregorian calendar: 2023-05-17
+Today's date in Jalali calendar: 1402/02/28 Today's date in Gregorian calendar: 2023-05-18
  # Auto commit
 This project updates its GitHub repository README.md on a daily basis using Docker and Python.
 
@@ -14,7 +14,7 @@ REPO_NAME | Repository name | no
 
 ## Note
 
-For the ACCESS_TOKEN, make sure to set the options for Codespaces and Contents to Read and write.
+For the ACCESS_TOKEN, make sure to set the options for **Codespaces** and **Contents** to **Read and write**.
 
 ## Docker hub
 
