@@ -1,10 +1,10 @@
-Today's date in Jalali calendar: 1402/02/28 Today's date in Gregorian calendar: 2023-05-18
+Today's date in Jalali calendar: 1402/02/29 Today's date in Gregorian calendar: 2023-05-19
  # Auto commit
 This project updates its GitHub repository README.md on a daily basis using Docker and Python.
 
 ## Usage
 
-Define the following environment variable to configure project.
+Define the following environment variable to configure Gaga Node.
 
 Variable | Description | Optional
 -------- | ----------- | --------
@@ -14,7 +14,7 @@ REPO_NAME | Repository name | no
 
 ## Note
 
-For the ACCESS_TOKEN, make sure to set the options for **Codespaces** and **Contents** to **Read and write**.
+For the ACCESS_TOKEN, make sure to set the options for Codespaces and Contents to Read and write.
 
 ## Docker hub
 
