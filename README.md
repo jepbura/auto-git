@@ -9,11 +9,8 @@ Define the following environment variable to configure project.
 Variable | Description | Optional
 -------- | ----------- | --------
 FILE_NAME | The file you want to edit  | no
-<<<<<<< HEAD
 ACCESS_TOKEN | your github access token | no
-=======
 ACCESS_TOKEN | Your github access token | no
->>>>>>> 00fd30f5f90b596eea320c033416d5241c8fb3a1
 REPO_NAME | Repository name | no
 SCHEDULE | Execution time | For 7:30 am 30 7 * * *
 
