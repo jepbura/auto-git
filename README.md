@@ -8,7 +8,7 @@ Define the following environment variable to configure Gaga Node.
 
 Variable | Description | Optional
 -------- | ----------- | --------
-README_FILE_NAME | The file you want to edit  | no
+FILE_NAME | The file you want to edit  | no
 ACCESS_TOKEN | your github access token | no
 REPO_NAME | Repository name | no
 

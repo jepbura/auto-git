@@ -9,11 +9,8 @@ COPY app.py ./
 
 ENV ACCESS_TOKEN=$ACCESS_TOKEN
 ENV REPO_NAME=$REPO_NAME
-ENV README_FILE_NAME=$README_FILE_NAME
+ENV FILE_NAME=$FILE_NAME
+ENV SCHEDULE="07:00"
+ENV TZ=Asia/Tehran
 
-RUN apt-get update && apt-get -y install cron
-
-COPY cronjob.txt ./
-RUN crontab cronjob.txt
-
-CMD ["cron", "-f"]
+CMD python3 app.py

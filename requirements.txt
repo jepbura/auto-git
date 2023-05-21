@@ -1,2 +1,3 @@
 PyGithub==1.55
 jdatetime==3.7.0
+schedule==1.1.0
