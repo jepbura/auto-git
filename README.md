@@ -12,7 +12,7 @@ FILE_NAME | The file you want to edit  | no
 ACCESS_TOKEN | your github access token | no
 ACCESS_TOKEN | Your github access token | no
 REPO_NAME | Repository name | no
-SCHEDULE | Execution time | For 7:30 am 30 7 * * *
+SCHEDULE | Execution time | 07:00
 
 ## Note
 
