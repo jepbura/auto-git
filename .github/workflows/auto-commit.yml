@@ -2,7 +2,7 @@ name: Auto commit
 
 on:
   schedule:
-    - cron: '0 7 * * * TZ=Asia/Tehran'
+    - cron: '0 1 * * *'
 
 jobs:
   build:
