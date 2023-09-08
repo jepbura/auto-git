@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # ساعت 7 صبح به وقت تهران (UTC +3)
+    - cron: '30 11 * * *'  # ساعت 7 صبح به وقت تهران (UTC +3)
 
 jobs:
   build:
@@ -25,5 +25,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         REPO_NAME: ${{ secrets.REPO_NAME }}
         FILE_NAME: ${{ secrets.FILE_NAME }}
-        SCHEDULE: "11:00"
-      run: python app.py
+        SCHEDULE: "11:30"
+      run: python app_run_by_actions.py
