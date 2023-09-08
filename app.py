@@ -9,6 +9,11 @@ REPO_NAME = os.environ['REPO_NAME']
 FILE_NAME = os.environ['FILE_NAME']
 SCHEDULE = os.environ['SCHEDULE']
 
+print(f"ACCESS_TOKEN, {ACCESS_TOKEN}!")
+print(f"REPO_NAME, {REPO_NAME}!")
+print(f"FILE_NAME, {FILE_NAME}!")
+print(f"SCHEDULE, {SCHEDULE}!")
+
 g = Github(ACCESS_TOKEN)
 repo = g.get_user().get_repo(REPO_NAME)
 
