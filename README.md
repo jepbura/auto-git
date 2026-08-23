@@ -1,4 +1,4 @@
-Today's date in Jalali calendar: 1405/05/31 Today's date in Gregorian calendar: 2026-08-22
+Today's date in Jalali calendar: 1405/06/01 Today's date in Gregorian calendar: 2026-08-23
  # Auto commit
 This project updates its GitHub repository README.md on a daily basis using Docker and Python.
 
